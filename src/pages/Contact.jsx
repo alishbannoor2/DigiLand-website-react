@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from '../assets/heroSectionBg.png'
+import contact from '../assets/contact.png'
 function Contact() {
     return (
         <>
@@ -40,7 +41,7 @@ function Contact() {
                         </form>
                     </div>
                     <div>
-                        <img src="src\assets\contact.png" alt="VR Girl" className='aspect-auto w-200 py-5 rounded-full' />
+                        <img src={contact} alt="contact" className='aspect-auto w-200 py-5 rounded-full' />
                     </div>
                 </div>
             </div>

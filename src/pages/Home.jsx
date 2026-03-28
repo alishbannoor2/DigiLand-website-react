@@ -20,6 +20,7 @@ import pfp7 from '../assets/pfp7.png'
 import pfp8 from '../assets/pfp8.png'
 import pfp9 from '../assets/pfp9.png'
 import pfp10 from '../assets/pfp10.png'
+import frontImage from '../assets/frontImage.png'
 
 function Home() {
     const services = [
@@ -90,7 +91,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='mr-10'>
-                    <img src="src\assets\frontImage.png" alt="VR Girl" className='aspect-auto w-300' />
+                    <img src={frontImage} alt="frontImage" className='aspect-auto w-300' />
                 </div>
             </div>
             <div className=' bg-black py-5 px-20' >

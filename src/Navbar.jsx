@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bg from './assets/heroSectionBg.png'
+import logo from './../public/logo.png'
 
 function Navbar() {
     return (
@@ -10,7 +11,7 @@ function Navbar() {
             }}
                 className="flex justify-around items-center p-4 ">
                 <div className='text-2xl font-extrabold text-white flex'>
-                    <img src="public\logo.png" alt="logo" className='aspect-auto w-10 ' />
+                    <img src={logo} alt="logo" className='aspect-auto w-10 ' />
                     <p className='pl-4'>digiland</p>
                 </div>
                 <div className='text-white'>

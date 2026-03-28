@@ -1,5 +1,6 @@
 import React from 'react';
 import bg from '../assets/heroSectionBg.png'
+import about from '../assets/about.png'
 
 function About() {
     return (
@@ -7,7 +8,7 @@ function About() {
             <div className="flex bg-cover bg-center py-35 px-20"
                 style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.9) 100%), url(${bg})`, }}>
                 <div>
-                    <img src="src\assets\about.png" alt="VR Girl" className='aspect-auto w-200  ' />
+                    <img src={about} alt="about" className='aspect-auto w-200  ' />
                 </div>
                 <div>
                     <div className='text-white font-normal text-5xl p-3'>
