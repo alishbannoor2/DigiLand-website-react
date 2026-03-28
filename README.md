@@ -50,6 +50,16 @@ npm run lint
 
 ---
 
+### Screens
+<img width="1155" height="1662" alt="image" src="https://github.com/user-attachments/assets/1f5f023a-008e-4855-9b30-05654403d30d" />
+
+<img width="1248" height="590" alt="image" src="https://github.com/user-attachments/assets/d174d3d8-ab04-4981-a8bf-291b0acadabe" />
+
+<img width="1260" height="591" alt="image" src="https://github.com/user-attachments/assets/afcc8317-7bf6-43dd-a183-e98a1f606216" />
+
+
+---
+
 ## 📦 Deployment
 - The build output is generated in the `dist/` folder.  
 - Configure your hosting (e.g., Vercel) to serve from `dist`.  
