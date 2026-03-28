@@ -21,7 +21,6 @@ import pfp8 from '../assets/pfp8.png'
 import pfp9 from '../assets/pfp9.png'
 import pfp10 from '../assets/pfp10.png'
 
-
 function Home() {
     const services = [
         { id: 1, image: react, name: "React" },
